@@ -45,8 +45,18 @@
   border-style: solid;
   border-color: var(--text);
   background-color: antiquewhite;
-}
+  transition: background-color 0.5s ease-in-out,
+  transform 0.1s ease-in-out;
 
+}
+.cell:hover
+{
+  background-color: #C1B3A0;
+}
+.cell:active
+{
+  transform: scale(0.9);
+}
 @media (min-width: 600px)
 {
   .cell
