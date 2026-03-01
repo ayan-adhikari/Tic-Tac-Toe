@@ -1,0 +1,81 @@
+/*=============================
+   Variables
+=============================*/
+:root {
+   /*Color Variables (transparent/black is a placeholder)*/
+    --main: transparent;
+    --secondary: transparent; /*Lighter version of main*/
+    --accent-1: transparent;
+    --accent-2: transparent;
+    --text: black;
+   /*Font variables*/
+   --heading-font: insert-heading-font;
+   --body-font: insert-body-font;
+}
+
+/*=============================
+   Background + Text Colors
+=============================*/
+.main-bg {
+    background-color: var(--main);
+}
+
+.secondary-bg {
+    background-color: var(--secondary);
+}
+
+.accent-1-bg {
+    background-color: var(--accent-1);
+}
+
+.accent-2-bg {
+    background-color: var(--accent-2);
+}
+
+
+.text {
+    color: var(--text);
+}
+/*=============================
+   Header
+=============================*/
+.header {
+    /*Flexbox settings*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Background color (transparent by default)*/
+    background-color: transparent;
+    
+    /*Text and Padding settings*/
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 5rem);
+    min-height: 1.5rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header h1 {
+    margin: 0;
+}
+/*=============================
+Text size and font formatting
+=============================*/
+.heading-text
+{
+   font-size: clamp(3rem, 2vw, 5rem);
+   font-family: var(--heading-font);
+   
+}
+.subheading-text
+{
+   font-size: clamp(2rem, 1.5vw, 3rem);
+   font-family: var(--heading-font);
+}
+.body-text
+{
+   font-size: clamp(1rem, 1.2vw, 1.3rem);
+   font-family: var(--body-font);
+}

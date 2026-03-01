@@ -1,0 +1,20 @@
+.flexbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontal-flexbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.vertical-flexbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

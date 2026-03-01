@@ -1,0 +1,29 @@
+/*Button Styling (Transparent is a default)*/
+.button {
+  /*Background/Border styling*/
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: transparent;
+  border-radius: 0.125rem;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /*Transition durations*/
+  transition:
+    background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out,
+    transform 0.05s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+}
+.button:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  background-color: transparent;
+  color: transparent;
+}
+.button:active {
+  transform: scale(0.9);
+}
