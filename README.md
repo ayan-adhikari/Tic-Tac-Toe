@@ -1,5 +1,3 @@
-#Website Boilerplate Code
+#Tic Tac Toe
 ---
-This is some html, css and js boilerplate code to create projects faster. It includes a colour scheme template and some useful premade classes. 
-
-To us it press "Use this template" and press create a new repository to create a new repository with this code. 
+This is a 2 player tic-tac-toe game made with html, css and js. You can play with another person on the same device where you take turns placing X's and O's.
