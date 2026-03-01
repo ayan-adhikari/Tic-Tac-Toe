@@ -27,3 +27,30 @@
 .button:active {
   transform: scale(0.9);
 }
+.X
+{
+    color: var(--accent-1);
+}
+.O
+{
+    color : var(--accent-2);
+}
+
+.cell
+{
+  width: clamp(4rem, 15vh, 20rem); /*Font size of main grid*/
+  height: clamp(4rem, 15vh, 20rem); /*Font size of main grid*/
+  border-width: 0.25rem;
+  border-radius: 25%;
+  border-style: solid;
+  border-color: var(--text);
+  background-color: antiquewhite;
+}
+
+@media (min-width: 600px)
+{
+  .cell
+  {
+    border-width: 0.45rem;
+  }
+}

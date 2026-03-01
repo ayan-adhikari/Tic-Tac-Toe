@@ -64,7 +64,7 @@ Text size and font formatting
 =============================*/
 .heading-text
 {
-   font-size: clamp(3rem, 2vw, 5rem);
+   font-size: clamp(3rem, 5vw, 5rem);
    font-family: var(--heading-font);
    
 }
@@ -77,12 +77,4 @@ Text size and font formatting
 {
    font-size: clamp(1rem, 1.2vw, 1.3rem);
    font-family: var(--body-font);
-}
-.X
-{
-    color: var(--accent-1);
-}
-.O
-{
-    color : var(--accent-2);
 }
