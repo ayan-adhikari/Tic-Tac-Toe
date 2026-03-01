@@ -18,3 +18,17 @@
   align-items: center;
   flex-direction: column;
 }
+.main-grid
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-size: clamp(3rem, 10vh, 20rem);
+  gap: 1rem;
+}
+.grid-item
+{
+  border-width: 1rem;
+  border-style: solid;
+  border-color: var(--text);
+}
