@@ -66,6 +66,14 @@
 {
   color: transparent;
 }
+.winner
+{
+  background-color: #90EE90;
+}
+.winner:hover
+{
+  background-color: #90EE90;
+}
 @media (min-width: 600px)
 {
   .cell
