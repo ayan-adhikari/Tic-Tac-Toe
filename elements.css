@@ -74,6 +74,10 @@
 {
   background-color: #90EE90;
 }
+#feedback
+{
+  min-height: clamp(1.1rem, 1.3vw, 1.4rem);
+}
 @media (min-width: 600px)
 {
   .cell
