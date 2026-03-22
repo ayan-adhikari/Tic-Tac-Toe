@@ -32,10 +32,12 @@
 .X
 {
     color: var(--accent-1);
+    font-family: "Baloo 2", sans-serif;
 }
 .O
 {
     color : var(--accent-2);
+    font-family: "Baloo 2", sans-serif;
 }
 
 .cell
